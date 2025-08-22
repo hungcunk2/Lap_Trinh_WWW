@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+<div class="register-container">
+    <h2>Register</h2>
+    <form action="bai5" method="post">
+        <div class="form-group name-fields">
+            <div>
+                <label for="firstName">Name <span style="color: red;">*</span></label>
+                <input type="text" id="firstName" name="firstName" required>
+                <small>First</small>
+            </div>
+            <div>
+                <label for="lastName">&nbsp;</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <small>Last</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="username">Username <span style="color: red;">*</span></label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail <span style="color: red;">*</span></label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group password-field">
+            <label for="password">Password <span style="color: red;">*</span></label>
+            <input type="password" id="password" name="password" required>
+            <span class="password-toggle">
+                </span>
+        </div>
+
+        <div class="form-group">
+            <label for="facebook">Facebook</label>
+            <input type="url" id="facebook" name="facebook">
+            <small>Enter your Facebook profile URL</small>
+        </div>
+
+        <div class="form-group">
+            <label for="bio">Short Bio</label>
+            <textarea id="bio" name="bio" rows="4"></textarea>
+            <small>OK.</small>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
